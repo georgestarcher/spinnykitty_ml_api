@@ -23,5 +23,5 @@ def post_spinny():
     return jsonify(result_ml), 201
 
 if __name__ == '__main__':
-    api.run()
+    api.run(host='0.0.0.0')
 
